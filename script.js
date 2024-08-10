@@ -83,11 +83,11 @@ document.addEventListener("DOMContentLoaded", function() {
             // Redirect to home page after a delay (e.g., 2 seconds)
             setTimeout(function() {
                 if(userData.Email.endsWith('@truman.edu')){
-                    window.location.href = 'Trumen.htmL'; // Replace "home.html" with your home page URL
+                    window.location.href = 'trumanverification.html'; // Replace "home.html" with your home page URL
                 }else if(userData.Email.endsWith('@eastcentral.edu')){
-                    window.location.href = 'eastcentral.htmL'; // Replace "home.html" with your home page URL
+                    window.location.href = 'eastverify.html'; // Replace "home.html" with your home page URL
                 }else{
-                    window.location.href = 'fpctx.htmL'; // Replace "home.html" with your home page URL
+                    window.location.href = 'fpcfverification.html'; // Replace "home.html" with your home page URL
                 }
             }, 2000)
         }else{
